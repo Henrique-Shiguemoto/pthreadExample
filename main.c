@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include "quick.h"
 #include "merge.h"
 #include "utils.h"
 

@@ -1,12 +1,8 @@
 #pragma once
 
-#define COUNT  10000
+#include "utils.h"
 
-typedef struct ArrayInfo{
-  int *array;
-  int low;
-  int high;
-} ArrayInfo;
+#define COUNT  10000
 
 void swap(int *a, int *b);
 int partition(int array[], int low, int high);

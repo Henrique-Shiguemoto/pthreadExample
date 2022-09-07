@@ -1,12 +1,8 @@
 #pragma once
 
-#define COUNT  10000
+#include "utils.h"
 
-typedef struct ArrayInfo{
-  int *array;
-  int low;
-  int high;
-} ArrayInfo;
+#define COUNT  10000
 
 void mergeSort(int arr[], int l, int r);
 void* mergeSortForThreads(void* arg);
